@@ -48,7 +48,7 @@ public class Inventory {
     public void viewProducts() {
         System.out.println("\n--- Current Inventory ---");
         if (products.isEmpty()) {
-            System.out.println("📭 Inventory is empty. Add some products first!");
+            System.out.println(" Inventory is empty. Add some products first!");
         } else {
             System.out.println("Total Products: " + products.size());
             System.out.println("-".repeat(60));
@@ -62,7 +62,7 @@ public class Inventory {
     public void deleteProduct() {
         System.out.println("\n--- Delete Product ---");
         if (products.isEmpty()) {
-            System.out.println("📭 Inventory is empty. Nothing to delete!");
+            System.out.println(" Inventory is empty. Nothing to delete!");
             return;
         }
 
@@ -84,7 +84,7 @@ public class Inventory {
     public void generateReceipt() {
         System.out.println("\n--- Generate Receipt ---");
         if (products.isEmpty()) {
-            System.out.println("📭 No products to generate receipt for!");
+            System.out.println(" No products to generate receipt for!");
             return;
         }
 
@@ -104,6 +104,6 @@ public class Inventory {
             }
         }
 
-        System.out.println("❌ Product not found!");
+        System.out.println(" Product not found!");
     }
 }
