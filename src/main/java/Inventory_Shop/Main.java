@@ -56,10 +56,10 @@ public class Main {
 
         private static void displayMenu() {
             System.out.println("\n===== SHOP INVENTORY SYSTEM =====");
-            System.out.println("1. ➕ Add Product");
-            System.out.println("2. 👁️ View All Products");
-            System.out.println("3. ❌ Delete Product");
-            System.out.println("4. 🚪 Exit");
+            System.out.println("1. Add Product");
+            System.out.println("2. View All Products");
+            System.out.println("3. Delete Product");
+            System.out.println("4. Exit");
             System.out.println("=".repeat(35));
         }
     }
